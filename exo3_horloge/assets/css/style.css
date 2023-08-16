@@ -1,0 +1,19 @@
+.list__horloge {
+    /*retiré les liste à puce*/
+    list-style: none;
+    /*center les éléments*/
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    /*reste des éléments css pour horloge*/
+    padding: 8px;
+    border-style: solid;
+    border-color: #4466AA;
+    border-width: 1px;
+    color: #4466AA;
+    font-size: 48pt;
+    font-weight: bold;
+}
+.horloge__el--point{
+    color:#AAAAAA;
+}
